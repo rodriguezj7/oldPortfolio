@@ -132,46 +132,8 @@ header .logo {
   margin-bottom: 1.5rem; /* 24px / 16px */
 }
 
-.info .owner-details img {
-  border-radius: 50%;
-  margin-bottom: .375rem; /* 6px / 16px */
-}
-.info h2.relationship, .info h2.name {
-  color: #909597;
-  margin-bottom:.1875rem; /* 3px / 16px */
-}
-
-.info h2.name {
-  font-weight: bold;
-}
-
-.info p.location {
-  margin-bottom: 1.25rem; /* 20px / 16px */
-}
-
-.info .icon {
-  float: left;
-  width: 33.3%;
-}
-
-.info .icon img {
-  height: 30px;
-  margin-bottom: .1875rem; /* 3px / 16px */
-}
-
-.info .booking h2 {
-  font-weight: 600;
-  font-size: 1.375rem; /* 22px / 16px */
-  margin-bottom: .8125rem; /* 3px / 16px */
-}
-
-.info h2.price time {
-  font-size: 1rem; /* 16px / 16px */
-}
-
-
 /*
- * Details styles
+ * Skills styles
 */
 
 .details {
@@ -190,8 +152,36 @@ header .logo {
   margin-bottom: 0.625rem;
 }
 
-.details li {
-  margin-bottom: 0.3125rem;
+
+.about a img{
+    display: inline;;
+    width: 100%;
+    height: 100%;
+  }
+
+.about img{
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.details img {
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+.details img:hover {
+    border: 1px  rgb(245, 245, 245);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+
+.details img {
+    height: auto;
 }
 
 .details section {
