@@ -42,12 +42,12 @@ strong {
 */
 
 .button {
-  background: rgb(255, 89, 95);
+  background: #7f8c8d;
   color: white;
   text-decoration: none;
   display: block;
   padding: 0.75rem 5rem;
-  border-bottom: 1px solid rgb(227, 25, 29);
+  border-bottom: 1px solid #ecf0f1);
   border-radius: 2px;
   width: 95%;
   margin: 0 auto;
@@ -77,9 +77,10 @@ header .logo {
   border-right: 1px solid #DCE0E0;
 }
 
-.parallax{
+.parallax {
+  background-image: url('boston copy.jpg');
   text-align: center;
-  height: 500px;
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,13 +88,38 @@ header .logo {
 
 }
 
+.parallax .name img{
+  display: block;
+  margin: 0 auto;
+
+  width: 80%;
+  top: 0; bottom:0; left: 0; right:0;
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .parallax .name img {
+      width: 150%;
+      padding-right: 50px;
+    }
+    .parallax{
+      height: 500px;
+    }
+}
 
 /*
  * Info
 */
 
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .info {
-  background: #FFF;
+  background: #ecf0f1;
   text-align: center;
   padding: 1.5625rem; /* 25px / 16px */
 }
