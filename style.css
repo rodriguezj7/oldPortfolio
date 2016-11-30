@@ -118,6 +118,12 @@ header .logo {
   border-radius: 50%;
 }
 
+#rails {
+  margin-left: 20px;
+  height: 200px;
+  width:  165px;
+}
+
 .info {
   background: #ecf0f1;
   text-align: center;
@@ -130,6 +136,11 @@ header .logo {
 
 .info .profile {
   margin-bottom: 1.5rem; /* 24px / 16px */
+}
+
+
+.column {
+  text-align: center;
 }
 
 /*
@@ -217,10 +228,11 @@ header .logo {
   .container {
     width: 1040px;
     margin: 0 auto;
+    text-align: center;
   }
 
   .column {
-    float: left;
+     margin: 0 auto;
   }
 
   .button {
@@ -238,7 +250,7 @@ header .logo {
 
   .info .profile {
     width: 660px;
-    border-right: 1px solid #DCE0E0;
+    text-align: center;
   }
 
   .info .booking {
@@ -280,28 +292,3 @@ header .logo {
   .details .about {
     text-align: left;
   }
-
-  .details .care .column, .details .games .column {
-    margin-right: 5.9rem;
-  }
-
-  .details .games li img {
-    padding-right: 0.5rem;
-  }
-
-  /*
-   * photo styles
-  */
-
-  .details .photos {
-    text-align: center;
-  }
-
-  .details .photos img {
-    display: inline;
-    width: 200px;
-    margin: 0 0.85rem;
-  }
-
-
-}
