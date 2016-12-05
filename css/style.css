@@ -144,8 +144,14 @@ header .logo {
 }
 
 /*
- * Skills styles
+ * Tools styles
 */
+
+.content-tools{
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .details {
   padding: 1.25rem;
