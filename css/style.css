@@ -80,7 +80,7 @@ header .logo {
 .parallax {
   background-image: url('../images/boston copy.jpg');
   text-align: center;
-  height: 700px;
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
