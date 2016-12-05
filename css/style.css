@@ -112,7 +112,14 @@ header .logo {
  * Info
 */
 
-.about img {
+.about1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
+}
+
+.about2 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
