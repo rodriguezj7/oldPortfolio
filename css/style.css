@@ -81,10 +81,10 @@ header .logo {
   background-image: url('../images/boston copy.jpg');
   text-align: center;
   height: 500px;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
 }
 
