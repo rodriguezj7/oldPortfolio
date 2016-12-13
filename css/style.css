@@ -266,31 +266,23 @@ header .logo {
     text-align: center;
   }
 
-  .info .booking {
-    width: 380px;
-  }
-
   .info .owner-details {
     width: 20%;
   }
 
-  .info .pet-details {
-    width: 80%;
-    text-align: left;
-  }
 
-  .info .pet-details .icon {
-    width: inherit;
-    margin-right: 50px;
-  }
-
-  .info .pet-details .icon img {
-    display: block;
-    margin: .1875rem auto .1875rem; /* 3px / 16px */
-  }
 
 
 /* portfolio gallery */
+
+@media screen and (max-width: 780px) {
+  .column li a img{
+    width: 45%;
+    height: 200px;
+
+  }
+
+}
 
 #portfolio li {
   border-radius: 50%;
@@ -326,6 +318,7 @@ header .logo {
   #portfolio li {
     width: 45%;
   }
+
 }
 
 @media screen and (max-width: 550px) {
