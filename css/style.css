@@ -125,6 +125,21 @@ header .logo {
   border-radius: 50%;
 }
 
+.content2 {
+  display: inline-block;
+  margin: 0 auto;
+  margin: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    .content2 img{
+      width: 100%;
+      height: auto;
+    }
+}
+
+
 #rails {
   margin-left: 20px;
   height: 200px;
@@ -182,6 +197,8 @@ header .logo {
     width: 100%;
     height: 100%;
   }
+
+
 
 .about img{
   margin-bottom: 8px;
@@ -271,6 +288,10 @@ header .logo {
   }
 
 
+#middle img{
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
+}
+
 
 
 /* portfolio gallery */
@@ -284,55 +305,14 @@ header .logo {
 
 }
 
-#portfolio li {
-  border-radius: 50%;
-  display: block;
-  float: left;
-  width: 30%;
-  max-width: 400px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-#portfolio img {
-  padding: 20px;
-  border-radius: 50%;
-  height: 175px;
-  height: 175px;
-}
-
-#portfolio li a {
-  border-radius: 50%;
-  display: block;
-  padding: 8px;
-  background: #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50% ;
-  -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-  -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-  box-shadow: 1px 2px 2px rgba(0,0,0,0.25);
-}
-
 /** media queries **/
-@media screen and (max-width: 780px) {
-  #portfolio li {
-    width: 45%;
-  }
 
+.photos{
+  margin: 0 auto;
+  text-align: center;
 }
 
-@media screen and (max-width: 550px) {
-  #portfolio {
-    text-align: center;
-  }
 
-  #portfolio li {
-    float: none;
-    display: inline-block;
-    width: 80%;
-    margin-bottom: 30px;
-  }
-}
 
   /*
    * .details styles

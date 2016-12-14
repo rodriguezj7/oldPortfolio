@@ -6,10 +6,13 @@
     <title>Front-End </title>
 
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
-    <link rel="stylesheet" type="text/css" media="all" href="css/magnific-popup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+
     <script type="text/javascript" src="script.js"> </script>
-    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+
+
+
 
 
   </head>
@@ -82,84 +85,55 @@ When I'm not working on projects, I am either counting calories, working out, or
 
 
               <div class="content-tools">
-                <a href="https://fast-river-57393.herokuapp.com/"><img src="" alt="Pinterest" /></a>
-                <a href="https://guarded-ravine-51024.herokuapp.com"><img src="" alt="Blog" /></a>
-                <a href="https://gentle-ridge-69534.herokuapp.com/"><img src="" alt="Team" /></a>
-              </div>
-
-
-
-
-            </div>
-
-            <div class="column">
-              <div class="likes">
-
-              </div><!-- likes -->
-            </div>
-
-            <div class="column">
-              <div class="check-in-out">
-
+                <div class="content2">
+                  <div><a href="https://fast-river-57393.herokuapp.com/"><img src="images/pint.png" alt="Pinterest" /></a></div>
+                  <div id="middle"><a href="https://guarded-ravine-51024.herokuapp.com"><img src="images/blog.png" alt="Blog" /></a></div>
+                  <div><a href="https://gentle-ridge-69534.herokuapp.com/"><img src="images/team.png" alt="Team" /></a></div>
+                </div>
               </div>
             </div>
+
           </section>
 
-          <section class="games clearfix">
-            <div class="column">
-              <h3>Experience and Skills</h3>
-              <p>
-                <ul>
-                  <li>Personal Trainer</li>
-                  <li>Video Editor</li>
-                  <li>Graphic Design</li>
-                  <li>IT Background</li>
-                </ul>
-                <p>
-            </div>
-
-            <div class="column">
-
-            </div>
-          </section>
 
           <section class="photos">
             <h3>Contact</h3>
-              <div>
-                  <a href="mailto:rodriguezj7815@gmail.com">Email</a>
-                  <a href="www.github.com"><img src="#github" alt="Github Account" /></a>
-                  <a href="www.facebook.com"><img src="#facebook" alt="Facebook Account" /></a>
-                  <a href="www.instagram.com"><img src="#instagram" alt="Instgram Account" /></a>
+              <div class="content3">
 
+                  <a href="www.github.com"><img src="images/github.png" alt="Github Account" style="height:100px; width:100px;"/></a>
+                  <a href="www.facebook.com"><img src="images/facebook.png" alt="Facebook Account" style="theight:100px; width:100px;"/></a>
+                  <a href="www.instagram.com"><img src="images/insta.png" alt="Instgram Account" style="height:100px; width:100px;"/></a>
 
               </div>
-            <p>
+              <a href="mailto:rodriguezj7815@gmail.com">Email</a>
 
-              <p>
-            <a href="#" class="contact">Contact</a>
           </section>
 
         </div><!-- .main -->
       </div><!-- .container -->
     </div><!-- .details -->
 
-<script type="text/javascript">
-  /*  $(function(){
-      $('#portfolio').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        image: {
-          cursor: null,
-          titleSrc: 'title'
-        },
-        gallery: {s
-          enabled: true,
-          preload: [0,1], // Will preload 0 - before current, and 1 after the current image
-          navigateByImgClick: true
-    		}
-      });
-    }); */
-</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.content2').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            arrows: true
+          });
+          $('.content3').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            arrows: true
+          });
+        });
+    </script>
+
 <script type="text/javascript" src="script.js"> </script>
   </body>
 </html>
