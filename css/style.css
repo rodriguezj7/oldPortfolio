@@ -307,13 +307,26 @@ header .logo {
 
 /** media queries **/
 
-.photos{
-  margin: 0 auto;
-  text-align: center;
+ul {  line-height: 1.6; list-style-position: inside; margin-bottom: 17px;
 }
 
+.photos ul li {
+  list-style: none outside none;
+  width: 25%;
+  display:inline-block;
+  overflow: hidden; 
+  list-style-type: none;
+}
+
+li {
+   display: list-item;
+  }
 
 
+.photos img {
+  max-width: 100%;
+	height: auto;
+}
   /*
    * .details styles
   */
