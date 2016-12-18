@@ -147,6 +147,7 @@ header .logo {
 }
 
 .info {
+  width: 100%;
   background: #ecf0f1;
   text-align: center;
   padding: 1.5625rem; /* 25px / 16px */
@@ -246,7 +247,7 @@ header .logo {
 }
 
 .details .photos img {
-  width: 100%;
+  width: 50%;
   display: block;
   margin-bottom: .5rem;
 }
@@ -265,10 +266,6 @@ header .logo {
      margin: 0 auto;
   }
 
-  .button {
-    width: 275px;
-    margin: auto;
-  }
 
   .info h1 {
     margin-bottom: .6875rem;
@@ -283,8 +280,6 @@ header .logo {
     text-align: center;
   }
 
-  .info .owner-details {
-    width: 20%;
   }
 
 
@@ -307,14 +302,23 @@ header .logo {
 
 /** media queries **/
 
-ul {  line-height: 1.6; list-style-position: inside; margin-bottom: 17px;
+.photos {
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  line-height: 1.6;
+  list-style-position: inside;
+  margin-bottom: 17px;
+  margin-left: 35px;
 }
 
 .photos ul li {
   list-style: none outside none;
   width: 25%;
   display:inline-block;
-  overflow: hidden; 
+  overflow: hidden;
   list-style-type: none;
 }
 
