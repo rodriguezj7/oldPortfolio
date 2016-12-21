@@ -98,15 +98,7 @@ header .logo {
 }
 
 
-@media only screen and (max-width: 800px){
-    .parallax .name img {
-      width: 150%;
-      padding-right: 50px;
-    }
-    .parallax{
-      height: 500px;
-    }
-}
+
 
 /*
  * Info
